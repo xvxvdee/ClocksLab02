@@ -1,0 +1,152 @@
+/* 
+#FE654F 
+#FED18C
+#FED99B
+#D6EFFF
+#FEFEFF
+
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+body{
+    background-color: #D6EFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin:0;
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding:10px;
+    font-size: 2.0em;
+    background-color: #FE654F;
+    color:#FEFEFF;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    padding:10px;
+    background-color: #FEFEFF;
+    transition: box-shadow 1s ease;
+}
+
+nav{
+    margin:0;
+    background-color: #FFFFFF;
+    padding:10px;
+}
+
+nav,a{
+    text-align: center;
+}
+
+a:hover{
+    color:#000000;
+    background-color: #FED99B;
+    box-shadow:0 5px 10px #000000;
+    transition: box-shadow 2s ease;
+}
+
+table{
+margin: auto;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+tr{
+    transition: 1s;
+    padding: 10px;
+}
+
+tr:hover{
+    box-shadow:0px 5px 10px #000000;
+    transition: box-shadow 1s ease;
+}
+
+#tableHeaders th{
+    background-color: #f1faee;
+    padding: 20px;
+}
+
+#tableHeaders:hover{
+    transition: none;
+    box-shadow: none;
+}
+
+img{
+    width: 120px;
+    border-radius: 20px;
+    transition: width 2s ease;
+}
+
+img:hover{
+    box-shadow: 0px 5px 5px #000000;
+    width: 150px;
+    transition: width 2s ease;
+}
+
+ul{
+    list-style-type: none;
+}
+
+main{
+    bottom:0;
+    padding:20px;
+    background-color:#FEFEFF ;  
+    margin: 20px auto;
+    border: solid 10px #a8dadc;   
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f1faee;
+    text-align: center;
+    bottom:0;
+    padding:10px;
+    margin:0;
+    width:auto;
+}
+
+#valid{
+    width:70%;
+}
+
+div{
+    background-color: whitesmoke;
+    padding: 30px 40px;
+    box-shadow: 0 5px 5px palegoldenrod;
+    margin: 20px auto;
+}
+article{
+    padding: 20px;
+    margin:20px;
+    background-color: #FEFEFF;
+}
+
+article a{
+    text-decoration: none;
+    padding:0;
+    background-color: #FEFEFF;
+    transition:none;
+   
+}
+
+article a:hover{
+    color:#000000;
+    background-color: #D6EFFF;
+    /* background-color: #FED99B; */
+    box-shadow:none;
+}
